@@ -1,0 +1,28 @@
+@mixin border-deets($frame, $color,$width){
+	-webkit-border-radius: $frame;
+	-webkit-border: $width solid $color;
+	-moz-border-radius: $frame;
+	-moz-border-radius: $width, solid $color;
+	-ms-border-radius: $frame;
+	-ms-border: $width solid $color;
+	-o-border-radius:$frame;
+	-o-border: $width solid $color;
+	border-radius: $frame;
+	border: $width solid $color;
+
+}
+.sam{ @include border-deets(13px, black, 3px); }
+
+
+
+$pants: lightgreen;
+
+body{
+	background-color: $pants;
+}
+
+.notice{
+	@extend .sam;
+	
+}
+@import 'nav'

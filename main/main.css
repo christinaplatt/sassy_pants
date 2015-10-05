@@ -1,16 +1,28 @@
-.sam {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px; }
-
-body {
-  background-color: lightgreen; }
-
 nav ul {
   margin: 0px; }
 nav li {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 30px;
+  font-family: zapf chancery, cursive; }
+
+.sam, .notice {
+  -webkit-border-radius: 13px;
+  -webkit-border: 3px solid black;
+  -moz-border-radius: 13px;
+  -moz-border-radius: 3px, solid black;
+  -ms-border-radius: 13px;
+  -ms-border: 3px solid black;
+  -o-border-radius: 13px;
+  -o-border: 3px solid black;
+  border-radius: 13px;
+  border: 3px solid black; }
+
+body {
+  background: url("../images/owl.jpeg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: zapf chancery, cursive; }
 
 /*# sourceMappingURL=main.css.map */

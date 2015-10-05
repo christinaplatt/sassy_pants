@@ -1,3 +1,6 @@
+@import '../bourbon/bourbon';
+@import 'nav';
+
 @mixin border-deets($frame, $color,$width){
 	-webkit-border-radius: $frame;
 	-webkit-border: $width solid $color;
@@ -15,14 +18,19 @@
 
 
 
-$pants: lightgreen;
+$pants: url("../images/owl.jpeg");
 
 body{
-	background-color: $pants;
+	background: $pants no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: zapf chancery, cursive;
 }
 
 .notice{
 	@extend .sam;
 	
 }
-@import 'nav'
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>contact us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">About</a>
+        </li>
+        <li>
+            <a href="product.html">Products</a>
+        </li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Tia: For the form I'm using Bootstrap. BS added the role="form" attribute which helps with accessibility. It’s good practice to add this in. A really good explaination of this can be found here: https://bootstrapbay.com/blog/working-bootstrap-contact-form/--> 
+
+<body>
+  <div class="container">
+      <h1>Contact Us</h1>
+      <p>Would you like a pair of sassy pants but have questions first? Feel free to contact us.</p>
+    <form role="form">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>

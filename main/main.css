@@ -25,4 +25,8 @@ body {
   background-size: cover;
   font-family: zapf chancery, cursive; }
 
+#container {
+  font-size: 60pt;
+  font-family: arial; }
+
 /*# sourceMappingURL=main.css.map */

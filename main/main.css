@@ -3,6 +3,7 @@ nav ul {
 nav li {
   display: inline-block;
   font-size: 30px;
+  background-color: pink;
   font-family: zapf chancery, cursive; }
 
 .sam, .notice {
@@ -15,7 +16,20 @@ nav li {
   -o-border-radius: 13px;
   -o-border: 3px solid black;
   border-radius: 13px;
-  border: 3px solid black; }
+  border: 3px solid black;
+  margin: 30px;
+  background-color: pink;
+  background-opacity: 0.2; }
+
+#float {
+  float: right; }
+
+#box {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 10px solid black;
+  background-color: pink;
+  background-opacity: 0.4; }
 
 body {
   background: url("../images/owl.jpeg") no-repeat;
@@ -23,6 +37,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: black;
   font-family: zapf chancery, cursive; }
 
 #container {

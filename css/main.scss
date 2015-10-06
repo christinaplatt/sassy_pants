@@ -1,7 +1,7 @@
 @import '../bourbon/bourbon';
 @import 'nav';
 
-@mixin border-deets($frame, $color,$width){
+@mixin border-deets($frame, $color,$width ){
 	-webkit-border-radius: $frame;
 	-webkit-border: $width solid $color;
 	-moz-border-radius: $frame;
@@ -14,20 +14,41 @@
 	border: $width solid $color;
 
 }
-.sam{ @include border-deets(13px, black, 3px); }
+.sam{ @include border-deets(13px, black, 3px); 
+	margin: 30px;
+	background-color: pink;
+	background-opacity: 0.2;
+}
+#float{
+	float: right;
+}
 
+#box {
+	margin: 30px;
+	background-color: #ffffff;
+	border: 10px solid black;
+	background-color: pink;
+	background-opacity: 0.4;
+	
+}
 
+$color: black;
 
 $pants: url("../images/owl.jpeg");
 
 body{
 	background: $pants no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	-webkit-background-size:  cover;
+	-moz-background-size:  cover;
+	-o-background-size:  cover;
+	background-size:  cover;
+	color: $color;
 	font-family: zapf chancery, cursive;
+	
+
 }
+
+
 
 .notice{
 	@extend .sam;
